@@ -28,7 +28,7 @@ const MenuTab = () => {
         component={Favorit}
         options={{
           tabBarIcon: ({size, color}) => (
-            <MaterialCommunityIcons name="cog" size={size} color={color} />
+            <MaterialCommunityIcons name="heart" size={size} color={color} />
           ),
         }}
       />
